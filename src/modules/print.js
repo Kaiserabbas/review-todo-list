@@ -22,9 +22,6 @@ export class Task {
   }
 
   static removeTask(index) {
-    // if (index < 1 || index > tasks.length) {
-    //   return;
-    // }
     tasks.splice(index - 1, 1);
     // Save the books to local storage
     updateIndexes();
